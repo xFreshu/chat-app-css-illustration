@@ -1,0 +1,1 @@
+{"version":3,"sources":["style/index.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA","file":"chat-app-css-illustration.e31bb0bc.css","sourceRoot":"..","sourcesContent":["@import \"variables\";\n\n* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n}\n"]}

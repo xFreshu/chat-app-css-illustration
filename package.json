@@ -7,5 +7,11 @@
     "start:dev": "parcel index.html"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "style": "0.0.3"
+  },
+  "devDependencies": {
+    "sass": "^1.30.0"
+  }
 }
