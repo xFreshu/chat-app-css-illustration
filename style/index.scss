@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 html{
-  background-color: hsl(270, 20%, 96%);
+  background-color: white;
 }
 .wrapper {
   position: relative;
@@ -140,13 +140,39 @@ html{
 
   .info {
     position: absolute;
-    right: 10%;
+    right: 6%;
     top: 50%;
     width: 40%;
     transform: translateY(-50%);
-    background-color: green;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    .info__header{
+      margin-bottom: 40px;
+      font-weight: 500;
+      color: hsl(271, 36%, 24%);
+    }
+    .info__content{
+      color: hsl(270, 7%, 64%);
+    }
   }
+}
+
+.pattern__top{
+  position: absolute;
+  left: -8%;
+  background: linear-gradient(180deg, rgba(136, 56, 255, 1) 0%, rgba(233, 66, 255, 1) 100%);
+  width: 600px;
+  height: 700px;
+  border-radius: 0 0 50% 50%;
+}
+
+.pattern__bottom{
+  position: absolute;
+  right: -9%;
+  bottom: 0;
+  background-color: #F8F4FA;
+  width: 600px;
+  height: 700px;
+  border-radius: 50% 50% 0 0;
 }

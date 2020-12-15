@@ -6,7 +6,7 @@
 }
 
 html {
-  background-color: #f5f3f7;
+  background-color: white;
 }
 
 .wrapper {
@@ -127,14 +127,40 @@ html {
 }
 .wrapper .info {
   position: absolute;
-  right: 10%;
+  right: 6%;
   top: 50%;
   width: 40%;
   transform: translateY(-50%);
-  background-color: green;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.wrapper .info .info__header {
+  margin-bottom: 40px;
+  font-weight: 500;
+  color: #3e2753;
+}
+.wrapper .info .info__content {
+  color: #a39daa;
+}
+
+.pattern__top {
+  position: absolute;
+  left: -8%;
+  background: linear-gradient(180deg, #8838ff 0%, #e942ff 100%);
+  width: 600px;
+  height: 700px;
+  border-radius: 0 0 50% 50%;
+}
+
+.pattern__bottom {
+  position: absolute;
+  right: -9%;
+  bottom: 0;
+  background-color: #F8F4FA;
+  width: 600px;
+  height: 700px;
+  border-radius: 50% 50% 0 0;
 }
 
 /*# sourceMappingURL=/chat-app-css-illustration.e31bb0bc.css.map */

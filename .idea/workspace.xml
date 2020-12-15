@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50a889ed-22e4-4e8f-88bd-0cabff970ea5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cache/25/c9b55c12cc5241615f9dbc3960d246.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/25/c9b55c12cc5241615f9dbc3960d246.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/e5/8e1da2bcf62657ca5824c62e0edce3.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/e5/8e1da2bcf62657ca5824c62e0edce3.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/fb/3f0188985d0e6bf6e3acac87bd6652.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/fb/3f0188985d0e6bf6e3acac87bd6652.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/chat-app-css-illustration.e31bb0bc.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/chat-app-css-illustration.e31bb0bc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/chat-app-css-illustration.e31bb0bc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/chat-app-css-illustration.e31bb0bc.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/chat-app-css-illustration.e31bb0bc.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/chat-app-css-illustration.e31bb0bc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +73,7 @@
       <updated>1607537534333</updated>
       <workItem from="1607537535403" duration="938000" />
       <workItem from="1607540562532" duration="3225000" />
-      <workItem from="1607715233271" duration="6808000" />
+      <workItem from="1607715233271" duration="7802000" />
     </task>
     <servers />
   </component>
@@ -85,21 +81,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="223" key="GridCell.Tab.0.bottom" timestamp="1607976732393">
+    <state width="1419" height="223" key="GridCell.Tab.0.bottom" timestamp="1608060255274">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1419" height="223" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1607976732393" />
-    <state width="1419" height="223" key="GridCell.Tab.0.center" timestamp="1607976732392">
+    <state width="1419" height="223" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1608060255274" />
+    <state width="1419" height="223" key="GridCell.Tab.0.center" timestamp="1608060255273">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1419" height="223" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1607976732392" />
-    <state width="1419" height="223" key="GridCell.Tab.0.left" timestamp="1607976732391">
+    <state width="1419" height="223" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1608060255273" />
+    <state width="1419" height="223" key="GridCell.Tab.0.left" timestamp="1608060255273">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1419" height="223" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1607976732391" />
-    <state width="1419" height="223" key="GridCell.Tab.0.right" timestamp="1607976732392">
+    <state width="1419" height="223" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1608060255273" />
+    <state width="1419" height="223" key="GridCell.Tab.0.right" timestamp="1608060255274">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1419" height="223" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1607976732392" />
+    <state width="1419" height="223" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1608060255274" />
   </component>
 </project>
