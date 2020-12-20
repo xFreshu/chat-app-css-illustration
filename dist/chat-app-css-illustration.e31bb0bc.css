@@ -7,6 +7,8 @@
 
 html {
   background-color: white;
+  overflow: hidden;
+  cursor: default;
 }
 
 .wrapper {
@@ -70,6 +72,7 @@ html {
   height: 32px;
   border-radius: 50%;
   border: solid 2px white;
+  cursor: pointer;
 }
 .wrapper .card .card__contact .contact__info:before {
   position: absolute;
@@ -94,6 +97,7 @@ html {
   height: 3px;
   border-radius: 50%;
   background-color: white;
+  cursor: pointer;
 }
 .wrapper .card .card__contact .contact__info .card__settings:before {
   position: absolute;
@@ -124,6 +128,116 @@ html {
   border-radius: 0px 20px 20px;
   background-color: #f5f3f7;
   overflow: hidden;
+}
+.wrapper .card .card__contact .card__content .content__list .content__item {
+  -webkit-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.75);
+  font-size: 12px;
+}
+.wrapper .card .card__contact .card__content .content__list .left {
+  color: #9241c8;
+  display: flex;
+  background-color: rgba(146, 65, 200, 0.3);
+  width: 60%;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 8px 6px;
+}
+.wrapper .card .card__contact .card__content .content__list .left__special {
+  position: relative;
+  background: linear-gradient(90deg, #8838ff 0%, #e942ff 100%);
+  color: white;
+  height: 40px;
+  width: 70%;
+  line-height: 40px;
+  padding: 0 40px;
+  font-weight: 100;
+}
+.wrapper .card .card__contact .card__content .content__list .left__special:before {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: solid 1px white;
+  border-radius: 50%;
+}
+.wrapper .card .card__contact .card__content .content__list .left__special b {
+  position: absolute;
+  right: 10px;
+  font-size: 16px;
+}
+.wrapper .card .card__contact .card__content .content__list .right {
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
+  text-align: right;
+  background-color: white;
+  color: #6e5d7e;
+  margin: 6px 6px 6px 100px;
+  border-radius: 10px;
+  padding: 6px;
+}
+.wrapper .card .card__contact .card__content .content__list .right .item__photo {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  margin-right: 5px;
+  background-color: transparent;
+}
+.wrapper .card .card__contact .card__content .message {
+  display: flex;
+  position: relative;
+  margin: 30px auto 0;
+  background-color: white;
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  color: grey;
+  font-size: 10px;
+  padding-left: 20px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+}
+.wrapper .card .card__contact .card__content .message .message__type {
+  opacity: 40%;
+}
+.wrapper .card .card__contact .card__content .message .message__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+  height: 36px;
+  width: 36px;
+  background-color: #3e2753;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.wrapper .card .card__contact .card__content .message .message__button:after {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 10px;
+  background-color: white;
+}
+.wrapper .card .card__contact .card__content .message .message__button:before {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(135deg);
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 10px;
+  background-color: white;
 }
 .wrapper .info {
   position: absolute;
